@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+
 .App {
   text-align: center;
 }
@@ -5,6 +9,51 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.center-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50%;  
+    padding: 5px;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.photo{
+  width: 80%;
+  border-color: #a7a7a7;
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 50%;
+
+}
+.main{
+  background-color: black;
+  font-family: 'Bangers', cursive;
+}
+.fixed-box{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50%; 
+}
+
+.border-dashed{
+  border-style: dashed;
+  border-width: 2px;
+}
+
+.content{
+  height: 200px;
+  background-color: #e7e7e7;
+  border-radius: 1%;
+  padding: 5%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
